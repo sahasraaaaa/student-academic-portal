@@ -1,0 +1,19 @@
+.tableStyle {
+  border-collapse: collapse;
+  width: 60%;
+}
+
+.tableStyle th {
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+
+.tableStyle td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.tableStyle tr:nth-child(even) {
+  background-color: lightgray;
+}
